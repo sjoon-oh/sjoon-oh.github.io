@@ -120,7 +120,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Aker: Density-Aware Approximate Caching for Vector Search
+        title: "Aker: Density-Aware Approximate Caching for Vector Search"
         sub_title: VLDB Endowment, 19(10), 2026
         caption: 2026
         description: |
