@@ -22,6 +22,9 @@ additional_links:
   - title: CV PDF
     icon: fa fa-file-pdf-o
     url: /assets/files/cv-sukjoon-oh-20260906.pdf
+  - title: Google Scholar
+    icon: ai ai-google-scholar
+    url: https://scholar.google.co.kr/citations?user=cZX0AMQAAAAJ&hl=ko&oi=sra
 
 # About Section
 about_title: About Me
@@ -35,28 +38,25 @@ content:
     layout: list
     content:
       - layout: left
-        title: Korea Advanced Institute of Science and Technology (KAIST)
+        title: KAIST
         sub_title: Ph.D Student, School of Electrical Engineering
         caption: Mar. 2024 – Current
         description: |
-          Daejeon, Korea
+          My research focuses on efficient vector search and data-intensive systems. I study how caching and workload locality can reduce data movement across memory and storage hierarchies, with ongoing work extending these ideas to GPU-based vector search.
 
       - layout: left
-        title: Korea Advanced Institute of Science and Technology (KAIST)
+        title: KAIST
         sub_title: M.S., School of Electrical Engineering
         caption: Mar. 2022 – Feb. 2024
         description: |
-          Thesis: State Machine Replication with Dependency Check Offloading
-          Daejeon, Korea
-          Cumulative GPA: 3.70/4.30
+          I studied RDMA-based replication and distributed systems, focusing on reducing communication overhead in state machine replication. I also worked on scalable RDMA replication systems and integrated research prototypes into Redis and Memcached.
 
       - layout: left
         title: Yonsei University
         sub_title: B.S., School of Electrical and Electronic Engineering
         caption: Mar. 2020 – Feb. 2022
         description: |
-          Seoul, Korea
-          Cumulative GPA: 4.03/4.30
+          I built my foundation in operating systems, systems programming, and computer systems, and gained early research experience as an undergraduate research intern at Corelab.
 
       - layout: left
         title: Konkuk University
@@ -74,14 +74,14 @@ content:
         sub_title: Microsoft Canada
         caption: Mar. 2025 – Jun. 2025
         description: |
-          Vancouver, Canada
+          I continued collaborative research on approximate caching for vector search. The work resulted in Aker, a cache integrated into PostgreSQL pgvector that improves both search efficiency and accuracy, and was published in PVLDB 2026.
 
       - layout: left
         title: Research Intern
         sub_title: Microsoft Research Asia
         caption: Sep. 2024 – Mar. 2025
         description: |
-          Beijing, China
+          I worked on optimization for vector search, studying the I/O behavior and read amplification of approximate nearest neighbor search. This work explored result reuse and approximate caching as a way to bypass expensive index traversals.
 
       - layout: left
         title: Undergraduate Research Intern
@@ -95,21 +95,19 @@ content:
         sub_title: Operation Information & Communication Group, ROKAF
         caption: Jul. 2017 – Jun. 2019
         description: |
-          Osan Air Base, Korea
-
-          Mandatory military service
+          I developed operational software in C++ while serving in the Republic of Korea Air Force. Working with existing system constraints and validation requirements gave me early experience in building software where reliability and compatibility mattered as much as functionality.
 
   - title: Projects
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: Development of Index Structure Optimized for Vector DB in CXL-based Storage System
         sub_title: Microsoft
         caption: Jun. 2024 – Jun. 2025
         description: |
           Research project on index structures for vector databases in CXL-based disaggregated storage systems.
 
-      - layout: left
+      - layout: top-middle
         title: Disaggregated Memory Management for Hyperscale Datacenters
         sub_title: Samsung Electronics
         caption: Mar. 2022 – Mar. 2023
@@ -124,44 +122,44 @@ content:
         sub_title: VLDB Endowment, 19(10), 2026
         caption: 2026
         description: |
-          Sukjoon Oh, Minki Kang, Dohyun Kim, Baotong Lu, Jing Liu, Qianzi Zhang, Qi Chen and Youjip Won
+          Aker is an approximate result cache for disk-based vector search that adapts reuse decisions to individual queries and efficiently refreshes cached results under updates. Integrated into pgvector, Aker improves recall by up to 64 percentage points and QPS by up to 3.2× while using 0.6× the memory of PostgreSQL shared buffers.
 
   - title: Teaching
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: TA, Introduction to Programming and Computer Systems
-        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: KAIST
         caption: Sep. 2026 – Dec. 2026
 
-      - layout: left
+      - layout: top
         title: TA, Introduction to Programming and Computer Systems
-        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: KAIST
         caption: Mar. 2026 – Jun. 2026
 
-      - layout: left
+      - layout: top
         title: TA, Operating Systems and System Programming
-        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: KAIST
         caption: Sep. 2025 – Dec. 2025
 
-      - layout: left
+      - layout: top
         title: TA, Programming Structures for Electrical Engineering
-        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: KAIST
         caption: Mar. 2024 – Jun. 2024
 
-      - layout: left
+      - layout: top
         title: TA, Introduction to Environments and Tools for Modern SW Dev.
-        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: KAIST
         caption: Mar. 2024 – Jun. 2024
 
-      - layout: left
+      - layout: top
         title: TA, Operating Systems and System Programming
-        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: KAIST
         caption: Sep. 2023 – Dec. 2023
 
-      - layout: left
+      - layout: top
         title: TA, Unix Kernel Design
-        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: KAIST
         caption: Sep. 2022 – Dec. 2022
 
   - title: Technical Skills
