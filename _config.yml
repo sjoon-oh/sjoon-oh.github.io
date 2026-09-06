@@ -27,6 +27,7 @@ additional_links:
     url: https://scholar.google.co.kr/citations?user=cZX0AMQAAAAJ&hl=ko&oi=sra
 
 # About Section
+about_profile_image: /assets/files/profile.png
 about_title: About Me
 about_content: |
   I'm a Ph.D. student at KAIST focusing on systems research in operating systems and distributed systems.
