@@ -34,14 +34,14 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top
+      - layout: left
         title: Korea Advanced Institute of Science and Technology (KAIST)
         sub_title: Ph.D Student, School of Electrical Engineering
         caption: Mar. 2024 – Current
         description: |
           Daejeon, Korea
 
-      - layout: top
+      - layout: left
         title: Korea Advanced Institute of Science and Technology (KAIST)
         sub_title: M.S., School of Electrical Engineering
         caption: Mar. 2022 – Feb. 2024
@@ -50,7 +50,7 @@ content:
           Daejeon, Korea
           Cumulative GPA: 3.70/4.30
 
-      - layout: top
+      - layout: left
         title: Yonsei University
         sub_title: B.S., School of Electrical and Electronic Engineering
         caption: Mar. 2020 – Feb. 2022
@@ -58,7 +58,7 @@ content:
           Seoul, Korea
           Cumulative GPA: 4.03/4.30
 
-      - layout: top
+      - layout: left
         title: Konkuk University
         sub_title: Certified, Department of Electronics Engineering
         caption: Mar. 2016 – Feb. 2020
@@ -69,28 +69,28 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: top
+      - layout: left
         title: Research Intern
         sub_title: Microsoft Canada
         caption: Mar. 2025 – Jun. 2025
         description: |
           Vancouver, Canada
 
-      - layout: top
+      - layout: left
         title: Research Intern
         sub_title: Microsoft Research Asia
         caption: Sep. 2024 – Mar. 2025
         description: |
           Beijing, China
 
-      - layout: top
+      - layout: left
         title: Undergraduate Research Intern
         sub_title: Corelab, Yonsei University
         caption: Jan. 2021 – Jun. 2021
         description: |
           Seoul, Korea
 
-      - layout: top
+      - layout: left
         title: Operation Software Developer
         sub_title: Operation Information & Communication Group, ROKAF
         caption: Jul. 2017 – Jun. 2019
@@ -102,14 +102,14 @@ content:
   - title: Projects
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         title: Development of Index Structure Optimized for Vector DB in CXL-based Storage System
         sub_title: Microsoft
         caption: Jun. 2024 – Jun. 2025
         description: |
           Research project on index structures for vector databases in CXL-based disaggregated storage systems.
 
-      - layout: top-middle
+      - layout: left
         title: Disaggregated Memory Management for Hyperscale Datacenters
         sub_title: Samsung Electronics
         caption: Mar. 2022 – Mar. 2023
@@ -119,7 +119,7 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         title: "Aker: Density-Aware Approximate Caching for Vector Search"
         sub_title: VLDB Endowment, 19(10), 2026
         caption: 2026
@@ -129,37 +129,37 @@ content:
   - title: Teaching
     layout: list
     content:
-      - layout: top
+      - layout: left
         title: TA, Introduction to Programming and Computer Systems
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: Sep. 2026 – Dec. 2026
 
-      - layout: top
+      - layout: left
         title: TA, Introduction to Programming and Computer Systems
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: Mar. 2026 – Jun. 2026
 
-      - layout: top
+      - layout: left
         title: TA, Operating Systems and System Programming
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: Sep. 2025 – Dec. 2025
 
-      - layout: top
+      - layout: left
         title: TA, Programming Structures for Electrical Engineering
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: Mar. 2024 – Jun. 2024
 
-      - layout: top
+      - layout: left
         title: TA, Introduction to Environments and Tools for Modern SW Dev.
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: Mar. 2024 – Jun. 2024
 
-      - layout: top
+      - layout: left
         title: TA, Operating Systems and System Programming
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: Sep. 2023 – Dec. 2023
 
-      - layout: top
+      - layout: left
         title: TA, Unix Kernel Design
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: Sep. 2022 – Dec. 2022
